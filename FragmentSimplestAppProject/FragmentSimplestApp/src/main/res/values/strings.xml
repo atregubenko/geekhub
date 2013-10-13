@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FragmentSimplestApp</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="top_btn_linear">Linear layout</string>
+    <string name="top_btn_relative">Relative layout</string>
+    <string name="top_btn_table">Table layout</string>
+
+    <string name="middle_title_default">Layouts</string>
+    <string name="middle_tip_default_top">The user interface for each component of your app is defined using a hierarchy of View and ViewGroup objects.</string>
+    <string name="middle_tip_default_bottom">Each view group is an invisible container that organizes child views, while the child views may be input controls or other widgets that draw some part of the UI.\nThis hierarchy tree can be as simple or complex as you need it to be (but simplicity is best for performance).</string>
+
+    <string name="middle_tip_linear">LinearLayout is a view group that aligns all children in a single direction, vertically or horizontally. You can specify the layout direction with the android:orientation attribute.</string>
+    <string name="middle_tip_relative_top">A RelativeLayout is a very powerful utility for designing a user interface because it can eliminate nested view groups and keep your layout hierarchy flat, which improves performance.</string>
+    <string name="middle_tip_relative_bottom">If you find yourself using several nested LinearLayout groups, you may be able to replace them with a single RelativeLayout.</string>
+    <string name="middle_tip_table_left">A layout that arranges its children into rows and columns.</string>
+    <string name="middle_tip_table_center">A TableLayout consists of a number of TableRow objects, each defining a row.</string>
+    <string name="middle_tip_table_right">Each row has zero or more cells; each cell can hold one View object. The table has as many columns as the row with the most cells. A table can leave cells empty. Cells can span columns, as they can in HTML.</string>
+
+    <string name="bottom_tip_default">Choose button to navigate between fragments.</string>
+    <string name="bottom_tip_linear">You pressed button: \"Linear Layout\". Please, select corresponding button to view another info.</string>
+    <string name="bottom_tip_relative">You pressed button: \"Relative Layout\". Please, select corresponding button to view another info.</string>
+    <string name="bottom_tip_table">You pressed button: \"Table Layout\". Please, select corresponding button to view another info.</string>
+</resources>
