@@ -12,12 +12,5 @@
         android:textSize="60sp"
         android:layout_gravity="center"
         android:textAlignment="gravity" />
-    <TextView
-        android:text="@string/middle_tip_default_top"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent" />
-    <TextView
-        android:text="@string/middle_tip_default_bottom"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"/>
+
 </LinearLayout>
